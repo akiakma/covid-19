@@ -1,0 +1,38 @@
+.root {
+  border: 1px solid black;
+  height: 75vh;
+}
+.darkmodeRoot {
+  color: white;
+  height: 75vh;
+  background-color: #44484d;
+}
+.table {
+  padding: 5rem 5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.covidLive {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.kbsLive {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.title {
+  display: flex;
+  margin-bottom: 1.2rem;
+}
+.span {
+  margin-top: 0.5rem;
+  margin-right: 0.8rem;
+  text-align: center;
+  width: 10%;
+  height: 10%;
+  font-size: 1rem;
+  display: inline-block;
+  color: white;
+  background-color: red;
+}

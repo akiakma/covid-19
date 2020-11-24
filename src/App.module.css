@@ -1,0 +1,10 @@
+html {
+  overflow-y: scroll;
+}
+.root {
+  height: 100vh;
+}
+.rootSpinner {
+  height: 100vh;
+  overflow: hidden;
+}

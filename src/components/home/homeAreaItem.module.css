@@ -1,0 +1,45 @@
+.area {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 2rem 1rem;
+  margin-left: 3rem;
+  width: 15%;
+  color: black;
+  border-radius: 1rem;
+}
+.areaDarkmode {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 2rem 1rem;
+  margin-left: 3rem;
+  width: 15%;
+  border-radius: 1rem;
+  color: white;
+}
+.statistics {
+  font-size: 1rem;
+  display: flex;
+  font-weight: normal;
+}
+.patient {
+  color: grey;
+}
+.numero {
+  margin-right: 2rem;
+  color: blue;
+  margin-left: 1rem;
+}
+.numerDarkmode {
+  margin-right: 2rem;
+  color: white;
+  margin-left: 1rem;
+}
+.patients {
+  color: red;
+  font-weight: bold;
+}
+.redPatient {
+  margin-right: 2rem;
+  color: red;
+  margin-left: 1rem;
+}

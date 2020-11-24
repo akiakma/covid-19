@@ -1,0 +1,13 @@
+.loadingSpinner {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  margin-top: 15%;
+  margin-left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(15, 15, 29, 0.6);
+  color: white;
+  border-radius: 1rem;
+}

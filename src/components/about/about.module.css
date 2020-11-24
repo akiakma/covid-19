@@ -1,0 +1,49 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.darkmodeRoot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #44484d;
+  color: rgb(240, 226, 226);
+  height: 100vh;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  color: black;
+  background-color: #e6e7e9;
+  margin-top: 1rem;
+  width: 40%;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.left:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+.center:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+.right:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+.leftClicked {
+  font-weight: bold;
+}
+.centerClicked {
+  font-weight: bold;
+}
+.rightClicked {
+  font-weight: bold;
+}

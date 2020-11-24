@@ -1,0 +1,61 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.table {
+  border: 1px solid grey;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 50%;
+}
+.title {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+.info {
+  display: flex;
+  justify-content: center;
+}
+.infoDiv {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem 1rem;
+  text-align: center;
+}
+.infoCount {
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: grey;
+}
+.infoDivSub {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: normal;
+}
+.subInfo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.subInfoDiv {
+  text-align: center;
+  margin: 1rem 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.subInfoDesc {
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+.bottomDesc {
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}

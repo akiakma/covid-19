@@ -1,0 +1,40 @@
+.root {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0rem;
+}
+.chart {
+  width: 40%;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: grey;
+}
+.sideList {
+  display: flex;
+}
+.icon {
+  color: red;
+}
+.icon1 {
+  color: #36a3eb;
+}
+.icon2 {
+  color: #ffce56;
+}
+.icon3 {
+  color: #4bc0c0;
+}
+.icon4 {
+  color: #9966ff;
+}
+
+.db {
+  padding-top: 0.1rem;
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+}
+.loadingSpinner {
+}

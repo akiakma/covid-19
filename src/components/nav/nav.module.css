@@ -1,0 +1,106 @@
+.root {
+  border-bottom: 1px solid grey;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1rem;
+  background-color: rgb(212, 207, 207);
+}
+.rootDark {
+  background-color: rgb(56, 49, 49);
+  color: white;
+  border: 1px solid black;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1rem;
+}
+.title {
+  width: 100%;
+  font-size: 2rem;
+}
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.bannerLogo {
+  font-size: 2.3rem;
+  display: flex;
+  font-weight: bold;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+.bannerSwitch {
+  display: flex;
+}
+.bannerSwitchDiv {
+  margin-right: 1rem;
+}
+.titleBoard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+.titleBoardDiv {
+  margin-bottom: -0.7rem;
+}
+.menu {
+  border-bottom: 1px solid grey;
+  padding-top: 1rem;
+  margin-left: 0%;
+  width: 20%;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.menuHome {
+}
+.menuHomeClicked {
+  font-weight: bold;
+}
+.menuInfo {
+}
+.menuInfoClicked {
+  font-weight: bold;
+}
+.menuLive {
+}
+.menuMediaClicked {
+  font-weight: bold;
+}
+.menuHome:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+.menuInfo:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+.menuMedia:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.update {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  display: flex;
+}
+.updateButton {
+  border: none;
+  border-radius: 5rem;
+  background-color: rgb(52, 58, 64);
+  color: white;
+  line-height: 0.3;
+  margin-left: 0.4rem;
+}
